@@ -2,7 +2,7 @@ const FRUTAS1: string[] = ["Banana", "Abacaxi", "Limao", "Uva"]
 
 for(let item of FRUTAS1){
     if(item == "Limao"){
-        break // break e a mesma coisa que parar, ou seja se a condica acima e true pare !
+        break // break e a mesma coisa que parar, ou seja se a condicao acima e true pare !
 
     }
     console.log(item)
