@@ -44,4 +44,24 @@ numero2.sort(function(item1, item2){
 
 console.log(numero2)
 
+// Simplificacao : 
+
+const numero3 = [1, 15, 3, 4, 54,542, 12]
+// Crescente:
+numero3.sort((item1, item2) => {
+
+    return item1 - item2
+})
+
+
+const numero4 = [1, 15, 3, 4, 54,542, 12]
+// Decrescente:
+numero4.sort((item1, item2) => {
+
+    return item2 - item1
+})
+
+
+
+
 
