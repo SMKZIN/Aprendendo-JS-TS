@@ -2,6 +2,7 @@
   "name": "java-script",
   "version": "1.0.0",
   "main": "concatenação-Strings.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -9,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "jest": "^29.7.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.2"
   },
